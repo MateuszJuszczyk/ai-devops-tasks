@@ -23,6 +23,7 @@ W ramach serii zadań wykorzystałem AI jako asystenta w praktykach związanych 
 
 ## Najmocniejsze strony AI w kontekście DevOps
 
+- brainstorming
 - szybkie generowanie przykładów konfiguracji, np. `Dockerfile`, `docker-compose.yml`, `.gitignore`,
 - tłumaczenie komunikatów błędów na zrozumiały język,
 - tworzenie dokumentacji technicznej w Markdown,
@@ -30,6 +31,7 @@ W ramach serii zadań wykorzystałem AI jako asystenta w praktykach związanych 
 - pomoc w refaktoryzacji i poprawie czytelności kodu,
 - wyjaśnianie działania narzędzi, logów i metryk,
 - podpowiadanie dobrych praktyk bezpieczeństwa.
+- łatwość w zrozumieniu całego code base'u i pracy na istniejącej nie znanej przez deva bazie kodu
 
 ## Najsłabsze strony AI w kontekście DevOps
 
@@ -88,4 +90,4 @@ Największą wartością AI w tych zadaniach była szybkość uzyskania pierwsze
 
 Jednocześnie zauważyłem, że AI nie zastępuje wiedzy technicznej. Trzeba rozumieć, co model wygenerował, umieć ocenić poprawność odpowiedzi i wiedzieć, kiedy rozwiązanie jest zbyt uproszczone. W DevOps jest to szczególnie ważne, ponieważ błędna konfiguracja, ujawnienie sekretów lub brak limitów zasobów może mieć poważne konsekwencje.
 
-Podsumowując, AI traktuję jako narzędzie wspierające pracę, a nie jako automatycznego wykonawcę bez nadzoru. Najlepiej sprawdza się jako asystent do generowania propozycji, dokumentacji, analiz i przykładów, które następnie powinny zostać sprawdzone przez człowieka.
+Podsumowując, AI traktuję jako narzędzie wspierające pracę, a nie jako automatycznego wykonawcę bez nadzoru. Najlepiej sprawdza się jako asystent do generowania propozycji, dokumentacji, analiz i przykładów, które następnie powinny zostać sprawdzone przez człowieka. Nie mniej jednak, AI można używać jako główne narzędzie pracy jeśli posługuje się nim jako narzędziem podążającym za wytycznymi projektu, zgodnie z architekturą projektu, a nie jako autonomiczny generator oprogramowania bo zazwyczaj prowadzi to do tzw. AI slopu.
