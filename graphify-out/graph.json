@@ -1,0 +1,208 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config-refactored.js",
+      "file_type": "code",
+      "source_file": "config-refactored.js",
+      "source_location": "L1",
+      "id": "config_refactored_js",
+      "community": 0,
+      "norm_label": "config-refactored.js"
+    },
+    {
+      "label": "getEnvironmentConfig()",
+      "file_type": "code",
+      "source_file": "config-refactored.js",
+      "source_location": "L26",
+      "id": "config_refactored_getenvironmentconfig",
+      "community": 0,
+      "norm_label": "getenvironmentconfig()"
+    },
+    {
+      "label": "sum.js",
+      "file_type": "code",
+      "source_file": "sum.js",
+      "source_location": "L1",
+      "id": "sum_js",
+      "community": 1,
+      "norm_label": "sum.js"
+    },
+    {
+      "label": "sum()",
+      "file_type": "code",
+      "source_file": "sum.js",
+      "source_location": "L1",
+      "id": "sum_sum",
+      "community": 1,
+      "norm_label": "sum()"
+    },
+    {
+      "label": "fetch-user.js",
+      "file_type": "code",
+      "source_file": "fetch-user.js",
+      "source_location": "L1",
+      "id": "fetch_user_js",
+      "community": 2,
+      "norm_label": "fetch-user.js"
+    },
+    {
+      "label": "fetchUserData()",
+      "file_type": "code",
+      "source_file": "fetch-user.js",
+      "source_location": "L1",
+      "id": "fetch_user_fetchuserdata",
+      "community": 2,
+      "norm_label": "fetchuserdata()"
+    },
+    {
+      "label": "fetch-user-documented.js",
+      "file_type": "code",
+      "source_file": "fetch-user-documented.js",
+      "source_location": "L1",
+      "id": "fetch_user_documented_js",
+      "community": 3,
+      "norm_label": "fetch-user-documented.js"
+    },
+    {
+      "label": "fetchUserData()",
+      "file_type": "code",
+      "source_file": "fetch-user-documented.js",
+      "source_location": "L12",
+      "id": "fetch_user_documented_fetchuserdata",
+      "community": 3,
+      "norm_label": "fetchuserdata()"
+    },
+    {
+      "label": "backup-db.ps1",
+      "file_type": "code",
+      "source_file": "backup-db.ps1",
+      "source_location": "L1",
+      "id": "backup_db_ps1",
+      "community": 6,
+      "norm_label": "backup-db.ps1"
+    },
+    {
+      "label": "task-filter.js",
+      "file_type": "code",
+      "source_file": "task-filter.js",
+      "source_location": "L1",
+      "id": "task_filter_js",
+      "community": 4,
+      "norm_label": "task-filter.js"
+    },
+    {
+      "label": "getCompletedTaskTitles()",
+      "file_type": "code",
+      "source_file": "task-filter.js",
+      "source_location": "L1",
+      "id": "task_filter_getcompletedtasktitles",
+      "community": 4,
+      "norm_label": "getcompletedtasktitles()"
+    },
+    {
+      "label": "sum.test.js",
+      "file_type": "code",
+      "source_file": "sum.test.js",
+      "source_location": "L1",
+      "id": "sum_test_js",
+      "community": 7,
+      "norm_label": "sum.test.js"
+    },
+    {
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "config.js",
+      "source_location": "L1",
+      "id": "config_js",
+      "community": 5,
+      "norm_label": "config.js"
+    },
+    {
+      "label": "getEnvironmentConfig()",
+      "file_type": "code",
+      "source_file": "config.js",
+      "source_location": "L1",
+      "id": "config_getenvironmentconfig",
+      "community": 5,
+      "norm_label": "getenvironmentconfig()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config-refactored.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "config_refactored_js",
+      "_tgt": "config_refactored_getenvironmentconfig",
+      "source": "config_refactored_js",
+      "target": "config_refactored_getenvironmentconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sum.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "sum_js",
+      "_tgt": "sum_sum",
+      "source": "sum_js",
+      "target": "sum_sum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fetch-user.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "fetch_user_js",
+      "_tgt": "fetch_user_fetchuserdata",
+      "source": "fetch_user_js",
+      "target": "fetch_user_fetchuserdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "fetch-user-documented.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "fetch_user_documented_js",
+      "_tgt": "fetch_user_documented_fetchuserdata",
+      "source": "fetch_user_documented_js",
+      "target": "fetch_user_documented_fetchuserdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "task-filter.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "task_filter_js",
+      "_tgt": "task_filter_getcompletedtasktitles",
+      "source": "task_filter_js",
+      "target": "task_filter_getcompletedtasktitles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "config_js",
+      "_tgt": "config_getenvironmentconfig",
+      "source": "config_js",
+      "target": "config_getenvironmentconfig",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
