@@ -1,11 +1,11 @@
 # Graph Report - ai-devops-tasks  (2026-05-25)
 
 ## Corpus Check
-- 8 files · ~4,932 words
+- 11 files · ~9,934 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 14 nodes · 6 edges · 0 communities detected
+- 20 nodes · 9 edges · 0 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 

@@ -40,12 +40,30 @@
       "norm_label": "sum()"
     },
     {
+      "label": "find-pairs-optimized.js",
+      "file_type": "code",
+      "source_file": "find-pairs-optimized.js",
+      "source_location": "L1",
+      "id": "find_pairs_optimized_js",
+      "community": 2,
+      "norm_label": "find-pairs-optimized.js"
+    },
+    {
+      "label": "findPairs()",
+      "file_type": "code",
+      "source_file": "find-pairs-optimized.js",
+      "source_location": "L1",
+      "id": "find_pairs_optimized_findpairs",
+      "community": 2,
+      "norm_label": "findpairs()"
+    },
+    {
       "label": "fetch-user.js",
       "file_type": "code",
       "source_file": "fetch-user.js",
       "source_location": "L1",
       "id": "fetch_user_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "fetch-user.js"
     },
     {
@@ -54,7 +72,7 @@
       "source_file": "fetch-user.js",
       "source_location": "L1",
       "id": "fetch_user_fetchuserdata",
-      "community": 2,
+      "community": 3,
       "norm_label": "fetchuserdata()"
     },
     {
@@ -63,7 +81,7 @@
       "source_file": "fetch-user-documented.js",
       "source_location": "L1",
       "id": "fetch_user_documented_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "fetch-user-documented.js"
     },
     {
@@ -72,8 +90,26 @@
       "source_file": "fetch-user-documented.js",
       "source_location": "L12",
       "id": "fetch_user_documented_fetchuserdata",
-      "community": 3,
+      "community": 4,
       "norm_label": "fetchuserdata()"
+    },
+    {
+      "label": "ipv4-validator.js",
+      "file_type": "code",
+      "source_file": "ipv4-validator.js",
+      "source_location": "L1",
+      "id": "ipv4_validator_js",
+      "community": 5,
+      "norm_label": "ipv4-validator.js"
+    },
+    {
+      "label": "isValidIPv4()",
+      "file_type": "code",
+      "source_file": "ipv4-validator.js",
+      "source_location": "L1",
+      "id": "ipv4_validator_isvalidipv4",
+      "community": 5,
+      "norm_label": "isvalidipv4()"
     },
     {
       "label": "backup-db.ps1",
@@ -81,7 +117,7 @@
       "source_file": "backup-db.ps1",
       "source_location": "L1",
       "id": "backup_db_ps1",
-      "community": 6,
+      "community": 9,
       "norm_label": "backup-db.ps1"
     },
     {
@@ -90,7 +126,7 @@
       "source_file": "task-filter.js",
       "source_location": "L1",
       "id": "task_filter_js",
-      "community": 4,
+      "community": 6,
       "norm_label": "task-filter.js"
     },
     {
@@ -99,7 +135,7 @@
       "source_file": "task-filter.js",
       "source_location": "L1",
       "id": "task_filter_getcompletedtasktitles",
-      "community": 4,
+      "community": 6,
       "norm_label": "getcompletedtasktitles()"
     },
     {
@@ -108,8 +144,26 @@
       "source_file": "sum.test.js",
       "source_location": "L1",
       "id": "sum_test_js",
-      "community": 7,
+      "community": 10,
       "norm_label": "sum.test.js"
+    },
+    {
+      "label": "find-pairs.js",
+      "file_type": "code",
+      "source_file": "find-pairs.js",
+      "source_location": "L1",
+      "id": "find_pairs_js",
+      "community": 7,
+      "norm_label": "find-pairs.js"
+    },
+    {
+      "label": "findPairs()",
+      "file_type": "code",
+      "source_file": "find-pairs.js",
+      "source_location": "L1",
+      "id": "find_pairs_findpairs",
+      "community": 7,
+      "norm_label": "findpairs()"
     },
     {
       "label": "config.js",
@@ -117,7 +171,7 @@
       "source_file": "config.js",
       "source_location": "L1",
       "id": "config_js",
-      "community": 5,
+      "community": 8,
       "norm_label": "config.js"
     },
     {
@@ -126,7 +180,7 @@
       "source_file": "config.js",
       "source_location": "L1",
       "id": "config_getenvironmentconfig",
-      "community": 5,
+      "community": 8,
       "norm_label": "getenvironmentconfig()"
     }
   ],
@@ -158,6 +212,18 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "find-pairs-optimized.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "find_pairs_optimized_js",
+      "_tgt": "find_pairs_optimized_findpairs",
+      "source": "find_pairs_optimized_js",
+      "target": "find_pairs_optimized_findpairs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "fetch-user.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -182,6 +248,18 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "ipv4-validator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "ipv4_validator_js",
+      "_tgt": "ipv4_validator_isvalidipv4",
+      "source": "ipv4_validator_js",
+      "target": "ipv4_validator_isvalidipv4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "task-filter.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -189,6 +267,18 @@
       "_tgt": "task_filter_getcompletedtasktitles",
       "source": "task_filter_js",
       "target": "task_filter_getcompletedtasktitles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "find-pairs.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "find_pairs_js",
+      "_tgt": "find_pairs_findpairs",
+      "source": "find_pairs_js",
+      "target": "find_pairs_findpairs",
       "confidence_score": 1.0
     },
     {
